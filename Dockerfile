@@ -3,6 +3,7 @@ FROM adoptopenjdk/openjdk11
 # Create work folder
 RUN mkdir /work
 
+
 # Make port 9102 available to the world outside this container
 EXPOSE 8062
 
